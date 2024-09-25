@@ -1,5 +1,3 @@
-package dev.hv.model;
-
 import java.time.LocalDate;
 
 public interface ICustomer extends IId {
