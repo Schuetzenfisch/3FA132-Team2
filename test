@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+
+
+      Mensch simon = new Mensch("Asthma sehr stark");
+      Projekt projekt = new Projekt("Beni wird schon alles machen hihi");
+      if(simon.arbeitet()){
+          projekt.gehtVorran()
+      }else{
+          projekt.rip()
+      }
+      Projekt.setMotto("nie ohne mein Team");
+
+
+    }
+}
