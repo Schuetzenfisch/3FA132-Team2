@@ -1,4 +1,4 @@
-package org.example;
+/*package org.example;
 
 import org.junit.Test;
 
@@ -11,3 +11,4 @@ public class TestJUnit {
         assertTrue(true);
     }
 }
+*/
