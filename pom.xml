@@ -2,57 +2,97 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
 
+    <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
     <artifactId>HausFix_3FA132-Team2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <mariadb.version>3.4.0</mariadb.version>
+        <junit-jupiter.version>5.10.3</junit-jupiter.version>
+
+        <maven.compiler.plugin.version>3.12.1</maven.compiler.plugin.version>
+        <maven.surefire.plugin.version>3.3.0</maven.surefire.plugin.version>
+        <maven.antrun.plugin.version>3.0.0</maven.antrun.plugin.version>
+
     </properties>
 
 
 
-
     <dependencies>
-        <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>HausFix_3FA132-Team2</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.9.3</version> <!-- Überprüfe die neueste Version -->
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.9.3</version>
-            <scope>test</scope>
-        </dependency>
 
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
-            <version>3.0.3</version>
+            <version>${mariadb.version}</version>
         </dependency>
+
+        <!--  JUNIT    -->
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+            <version>${junit-jupiter.version}</version>
         </dependency>
 
     </dependencies>
 
+    <build>
+        <defaultGoal>clean compile install</defaultGoal>
+
+        <plugins>
+
+            <!--
+                create folder: run with
+                mvn antrun:run@createFolder
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>${maven.antrun.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>createFolder</id>
+                        <phase>generate-test-resources</phase>
+                        <configuration>
+                            <target>
+                                <mkdir dir="./src/main/java" />
+                                <mkdir dir="./src/main/resources" />
+                                <mkdir dir="./src/test/java" />
+                                <mkdir dir="./src/test/resources" />
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin.version}</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <!--	<testExcludes>
+                        <testExclude>**/*Test.java</testExclude>
+                    </testExcludes> -->
+                </configuration>
+            </plugin>
+
+            <!-- <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven.surefire.plugin.version}</version>
+            </plugin> -->
+
+        </plugins>
+
+    </build>
+
 
 </project>
-
-
-

@@ -7,7 +7,10 @@
     <list default="true" id="772ff7dd-597c-451b-b981-d8b5ccbf3f22" name="Changes" comment="Adding DatabaseConnection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestJUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ICustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ICustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ICustomer$Gender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ICustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IDatabaseConnection.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Schueler/IdeaProjects/HausFix_3FA132-Team2/src/data",
+    "last_opened_file_path": "C:/Users/Schueler/Desktop/HV-Start",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729578463385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding DatabaseConnection">
+      <created>1729579520921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729579520921</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
