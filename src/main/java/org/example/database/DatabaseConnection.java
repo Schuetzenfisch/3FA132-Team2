@@ -6,21 +6,33 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
 
-    //Aus properties ziehen!
     private static final String URL = "jdbc:mariadb://localhost:3306/schulprojektdb";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "#Sim06Kolli-workspace";
 
-    public Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USERNAME, PASSWORD);
-    }
+    private static DatabaseConnection instance;
 
-    public void testConnection() {
-        try (Connection connection = getConnection()) {
-            System.out.println("Verbindung zur Datenbank erfolgreich!");
+    private Connection connection;
+
+    private DatabaseConnection() throws SQLException {
+        try {
+            this.connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
         } catch (SQLException e) {
             System.out.println("Fehler bei der Verbindung zur Datenbank:");
-            e.printStackTrace();
+            throw new SQLException(e);
         }
+    }
+
+    public static DatabaseConnection getInstance() throws SQLException {
+        if (instance == null) {
+            instance = new DatabaseConnection();
+        } else if (instance.getConnection().isClosed()) {
+            instance = new DatabaseConnection();
+        }
+        return instance;
+    }
+
+    public Connection getConnection() {
+        return connection;
     }
 }
