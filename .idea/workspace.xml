@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772ff7dd-597c-451b-b981-d8b5ccbf3f22" name="Changes" comment="Adding DatabaseConnection">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MariaDBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MariaDBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestJUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ICustomer$Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ICustomer$Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ICustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ICustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IDatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IDatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IReading$KindOfMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IReading$KindOfMeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IReading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IReading.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MariaDBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MariaDBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TestJUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TestJUnit.class" afterDir="false" />
-    </list>
+    <list default="true" id="772ff7dd-597c-451b-b981-d8b5ccbf3f22" name="Changes" comment="Fixing Errors and structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,29 +19,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;IlaydaDgrl&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Schuetzenfisch/3FA132-Team2.git&quot;,
-    &quot;accountId&quot;: &quot;981ed565-bdbf-46ed-a2a9-7f21326bdfb5&quot;
-  }
-}</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Properties.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
   <component name="ProjectId" id="2nBidbaJfMViIEbQBGybWP64GdX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -66,16 +31,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.MariaDBConnection.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.TestJUnit.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Schueler/IdeaProjects/HausFix_3FA132-Team2/src/data",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "last_opened_file_path": "C:/Users/Schueler/Desktop/HV-Start",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -120,6 +78,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,6 +99,28 @@
       <option name="presentableId" value="Default" />
       <updated>1728452957390</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding DatabaseConnection">
+      <created>1729578463385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729578463385</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding DatabaseConnection">
+      <created>1729579520921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729579520921</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixing Errors and structure">
+      <created>1729589072993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729589072993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,5 +133,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding DatabaseConnection" />
+    <MESSAGE value="Fixing Errors and structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing Errors and structure" />
   </component>
 </project>
