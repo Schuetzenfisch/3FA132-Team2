@@ -1,0 +1,5 @@
+
+
+[Systemnutzer].db.url= "jdbc:mariadb://localhost:3306/schulprojektdb";
+[Systemnutzer].db.user= "root";
+[Systemnutzer].db.pw= "12345678";

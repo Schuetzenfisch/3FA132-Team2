@@ -3,13 +3,14 @@ package org.example;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class MariaDBConnection {
     public static void main(String[] args) {
         // URL im Format: jdbc:mariadb://[HOST]:[PORT]/[DATENBANKNAME]
-        String url = "jdbc:mariadb://localhost:3306/schulprojektdb";
+       String url = "jdbc:mariadb://localhost:3306/schulprojektdb";
         String user = "root";
-        String password = "#Sim06Kolli-workspace";
+        String password = "12345678";
 
         try {
             // Verbindung herstellen

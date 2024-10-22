@@ -14,7 +14,7 @@ public class TestJUnit {
     public void testDatabaseConnection() {
         String url = "jdbc:mariadb://localhost:3306/schulprojektdb";
         String user = "root";
-        String password = "#Sim06Kolli-workspace";
+        String password = "12345678";
 
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
             // Test: Verbindung sollte nicht null sein
