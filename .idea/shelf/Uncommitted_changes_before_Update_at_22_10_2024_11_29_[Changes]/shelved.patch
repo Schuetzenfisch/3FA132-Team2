@@ -1,0 +1,17 @@
+Index: src/main/java/org/example/Properties.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\nimport java.util.Properties;\r\npublic class Properties {\r\n\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Properties.java b/src/main/java/org/example/Properties.java
+--- a/src/main/java/org/example/Properties.java	(revision dfde5ca106190a2808a77ee569b1a17f27610e13)
++++ b/src/main/java/org/example/Properties.java	(date 1729589266302)
+@@ -2,6 +2,4 @@
+ import java.util.Properties;
+ public class Properties {
+ 
+-
+-
+ }

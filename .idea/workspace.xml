@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772ff7dd-597c-451b-b981-d8b5ccbf3f22" name="Changes" comment="Fixing Errors and structure" />
+    <list default="true" id="772ff7dd-597c-451b-b981-d8b5ccbf3f22" name="Changes" comment="Fixing Errors and structure">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Properties.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Schueler/Desktop/HV-Start",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
