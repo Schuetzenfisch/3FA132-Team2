@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="772ff7dd-597c-451b-b981-d8b5ccbf3f22" name="Changes" comment="Adding DatabaseConnection">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MariaDBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DatabaseConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestJUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ICustomer$Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ICustomer$Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IReading$KindOfMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IReading$KindOfMeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TestJUnit.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +104,14 @@
       <option name="presentableId" value="Default" />
       <updated>1728452957390</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding DatabaseConnection">
+      <created>1729578463385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729578463385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,5 +124,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding DatabaseConnection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding DatabaseConnection" />
   </component>
 </project>
