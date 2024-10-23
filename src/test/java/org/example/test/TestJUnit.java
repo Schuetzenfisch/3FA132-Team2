@@ -1,8 +1,7 @@
-package org.example;
+package org.example.test;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.fail;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -18,9 +17,9 @@ public class TestJUnit {
 
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
             // Test: Verbindung sollte nicht null sein
-            assertNotNull("Die Verbindung sollte nicht null sein.", connection);
+            Assertions.assertNotNull(connection, "Die Verbindung sollte nicht null sein.");
         } catch (SQLException e) {
-            fail("Fehler bei der Verbindung zur MariaDB: " + e.getMessage());
+            Assertions.fail("Fehler bei der Verbindung zur MariaDB: " + e.getMessage());
         }
     }
 }
