@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772ff7dd-597c-451b-b981-d8b5ccbf3f22" name="Changes" comment="Fixing Errors and structure">
+    <list default="true" id="772ff7dd-597c-451b-b981-d8b5ccbf3f22" name="Changes" comment="Fixing database Connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/database/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IId.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IReading$KindOfMeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IReading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MariaDBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TestJUnit.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729591037653</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixing database Connection">
+      <created>1729591882517</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729591882517</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +162,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding DatabaseConnection" />
     <MESSAGE value="Fixing Errors and structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Errors and structure" />
+    <MESSAGE value="Fixing database Connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing database Connection" />
   </component>
 </project>
